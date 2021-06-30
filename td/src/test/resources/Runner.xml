@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Test Suite" parallel="false">
+
+    <parameter name="platform" value="android"/>
+    <parameter name="deviceName" value="a00f51c1"/>
+    <parameter name="platformVersion" value="8"/>
+
+    <test name="Automation tests">
+        <classes>
+            <class name="com.td.tests.HomePageValidations"/>
+
+        </classes>
+    </test>
+</suite>
